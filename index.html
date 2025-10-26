@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RexQUEST Printing Services | Under Development</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #f04e23, #f7d23e, #2e8ece);
+      color: #fff;
+      text-align: center;
+    }
+    img {
+      width: 220px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    p {
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+      opacity: 0.9;
+    }
+    .progress-container {
+      width: 300px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 25px;
+      overflow: hidden;
+      height: 15px;
+      margin: 1rem auto 1.5rem;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #f04e23, #f7d23e, #2e8ece);
+      animation: load 3s ease-in-out infinite;
+    }
+    @keyframes load {
+      0% { width: 0%; }
+      50% { width: 90%; }
+      100% { width: 0%; }
+    }
+    .socials {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .socials a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.3rem;
+      border: 1px solid rgba(255,255,255,0.4);
+      padding: 8px 12px;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+    .socials a:hover {
+      background: white;
+      color: #0b3c5d;
+    }
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <img src="rexquest.jpg" alt="RexQUEST Logo">
+  <h1>RexQUEST Printing Services</h1>
+  <p>Our website is currently under development. Please bear with us as we work to deliver top-quality printing services that meet your expectations.</p>
+
+  <div class="progress-container">
+    <div class="progress-bar"></div>
+  </div>
+
+  <div class="socials">
+    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+  </div>
+
+  <footer>© 2025 RexQUEST Printing Services. All Rights Reserved.</footer>
+</body>
+</html>
